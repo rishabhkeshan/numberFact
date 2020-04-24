@@ -7,7 +7,7 @@ html {
 	overflow: hidden;
 }
 body {
-	background: url(/src/background.jpg) no-repeat;
+	background: url(src/background.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
 	padding-top: 3em;
