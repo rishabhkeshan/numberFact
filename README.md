@@ -1,4 +1,4 @@
-# Tic Tac Toe
+# Number Facts
 
 <h1>Project by DSC VIT</h1>
 </br>
