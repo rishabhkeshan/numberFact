@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=0.8">
+        <link rel="stylesheet" href="src/assets/css/main.css">
+        <title>Number facts</title>
+        
+    </head>
+
+    <body>
+			<h1>Random Number facts</h1>
+            <div class="card-wrapper">
+
+                <!-- Card controls. -->
+                <div class="control-tab">
+                    <button id="mathBtn">Math</button>
+                    <button id="triviaBtn">Trivia</button>
+                    <button id="dateBtn">Date</button>
+                    <button id="yearBtn">Year</button>
+                </div>
+                
+                <!-- Cards. -->
+                <div class="card">
+                    <div id="card-math">
+                        <div class="card-header">
+                            <h2>Math facts</h2>
+                        </div>
+    
+                        <div class="card-body">
+                            <form>
+                                <input type="number" placeholder="Input a number" id="cbMath">
+                                <button type="button" id="sub1">Submit</button>
+                            </form>
+    
+                            <p id="numberFact"></p>
+                        </div>
+                    </div>
+                    <div id="card-trivia">
+                        <div class="card-header">
+                            <h2>Trivia facts</h2>
+                        </div>
+    
+                        <div class="card-body">
+                            <form>
+                                <input type="number" placeholder="Input a number" id="cbTrivia">
+                                <button type="button" id="sub2">Submit</button>
+                            </form>
+    
+                            <p id="triviaFact"></p>
+                        </div>
+                    </div>
+                    <div id="card-date">
+                        <div class="card-header">
+                            <h2>Date facts</h2>
+                        </div>
+    
+                        <div class="card-body">
+                            <form>
+                                <input type="date" placeholder="Input a date" id="cbDate">
+                                <button type="button" id="sub3">Submit</button>
+                            </form>
+    
+                            <p id="dateFact"></p>
+                        </div>
+                    </div>
+                    <div id="card-year">
+                        <div class="card-header">
+                            <h2>Year facts</h2>
+                        </div>
+    
+                        <div class="card-body">
+                            <form>
+                                <input type="number" placeholder="Input a year" id="cbYear">
+                                <button type="button" id="sub4">Submit</button>
+                            </form>
+    
+                            <p id="yearFact"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- The main javascript file. -->
+        <script src="src/assets/js/main.js"></script>
+    </body>
+</html>
