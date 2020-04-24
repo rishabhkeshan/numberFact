@@ -64,7 +64,7 @@ window.addEventListener('load', function() { "use strict";
 	sub1.addEventListener('click', function(e) {
 		e.preventDefault();
 		if(cbMath.value != '') {
-		   	fetch(`http://numbersapi.com/${cbMath.value}/math`).then((res) => res.text()).then((data) => numberFact.textContent = data);
+		   	fetch(`//numbersapi.com/${cbMath.value}/math`).then((res) => res.text()).then((data) => numberFact.textContent = data);
 		}
 		
 		else {
@@ -75,7 +75,7 @@ window.addEventListener('load', function() { "use strict";
 											
 	sub2.addEventListener('click', function() {
 		if(cbTrivia.value != '') {
-		   	fetch(`http://numbersapi.com/${cbTrivia.value}`).then((res) => res.text()).then((data) => triviaFact.textContent = data);
+		   	fetch(`//numbersapi.com/${cbTrivia.value}`).then((res) => res.text()).then((data) => triviaFact.textContent = data);
 		}
 		
 		else {
@@ -90,7 +90,7 @@ window.addEventListener('load', function() { "use strict";
 				month = date.getMonth() + 1,
 				day = date.getDate();
 
-		   	fetch(`http://numbersapi.com/${month}/${day}/date`).then((res) => res.text()).then((data) => dateFact.textContent = data);
+		   	fetch(`//numbersapi.com/${month}/${day}/date`).then((res) => res.text()).then((data) => dateFact.textContent = data);
 		}
 		
 		else {
@@ -100,7 +100,7 @@ window.addEventListener('load', function() { "use strict";
 											
 	sub4.addEventListener('click', function() {
 		if(cbYear.value != '') {
-		   	fetch(`http://numbersapi.com/${cbYear.value}/year`).then((res) => res.text()).then((data) => yearFact.textContent = data);
+		   	fetch(`//numbersapi.com/${cbYear.value}/year`).then((res) => res.text()).then((data) => yearFact.textContent = data);
 		}
 		
 		else {
